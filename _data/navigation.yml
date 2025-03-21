@@ -4,5 +4,5 @@ main:
     url: /posts/
   - title: "Page"
     url: /pages/
-  - title: "Portpolio"
-    url: /portpolio/
+  - title: "Portfolio"
+    url: /portfolio/
