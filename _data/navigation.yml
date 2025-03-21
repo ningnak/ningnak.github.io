@@ -2,7 +2,5 @@
 main:
   - title: "Post"
     url: /posts/
-  - title: "Page"
-    url: /pages/
   - title: "Portfolio"
     url: /portfolio/
