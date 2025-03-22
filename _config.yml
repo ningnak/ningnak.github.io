@@ -140,6 +140,7 @@ footer:
 include:
   - .htaccess
   - _posts
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -164,6 +165,7 @@ exclude:
   - package-lock.json
   - Rakefile
   - tmp
+  - _drafts/
 keep_files:
   - .git
   - .svn
@@ -263,9 +265,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-portfolio_archive:
+tag_archive:
   type: liquid
-  path: /portfolios/
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -302,11 +304,10 @@ defaults:
       related: false
       sidebar:
         nav: "main"
-# _portfolio
+  # _pages
   - scope:
-      path: ""
-      type: portfolio
+      path: "_pages"
+      type: pages
     values:
       layout: single
       author_profile: false
-      share: true
