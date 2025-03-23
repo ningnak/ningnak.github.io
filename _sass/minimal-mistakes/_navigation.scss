@@ -24,7 +24,7 @@
   ol {
     padding: 0;
     list-style: none;
-    font-size: $type-size-6;
+    font-size: $type-size-4;
 
     @include breakpoint($large) {
       float: inline-end;
@@ -123,7 +123,7 @@
     float: inline-start;
     width: 50%;
     font-family: $serif;
-    font-size: $type-size-5;
+    font-size: $type-size-3;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -278,7 +278,7 @@
     a {
       margin: 0;
       padding: 10px 20px;
-      font-size: $type-size-5;
+      font-size: $type-size-3;
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -351,7 +351,7 @@
       display: inline-block;
       padding: 0.5em 2.5em 0.5em 1em;
       color: $gray;
-      font-size: $type-size-6;
+      font-size: $type-size-4;
       font-weight: bold;
       border: 1px solid $light-gray;
       border-radius: $border-radius;
@@ -482,7 +482,7 @@
   margin: 0;
   padding: 0.5rem 0.75rem;
   font-family: $serif;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
   font-weight: bold;
 }
 
@@ -491,7 +491,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $serif;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -512,7 +512,7 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    font-size: $type-size-4;
     background: $primary-color;
     border-start-start-radius: $border-radius;
     border-start-end-radius: $border-radius;
@@ -529,10 +529,10 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-5;
   }
 
   a {
