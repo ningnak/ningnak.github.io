@@ -35,7 +35,7 @@ layout: default
             <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>
           {%- endif %}
-          {% include page__meta.html %}
+          <!-- {% include page__meta.html %} -->
         </header>
       {% endunless %}
 
@@ -57,7 +57,11 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-        {% include page__date.html %}
+        {% include page__date.html %}        
+          <br/>
+          <br/>
+          <br/>
+          <br/>
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
@@ -87,8 +91,4 @@ layout: default
   {% endif %}
 -->
 
-  <br/>
-  <br/>
-  <br/>
-  <br/>
 </div>
