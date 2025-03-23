@@ -13,7 +13,7 @@ $doc-font-size-x-large: $doc-font-size * 1.375 !default;
 
 /* paragraph indention */
 $paragraph-indent: true !default; // true, false (default)
-$indent-var: 1em !default;
+$indent-var: 0.8em !default;
 
 @font-face {
    font-family: 'SunBatang-Light';
