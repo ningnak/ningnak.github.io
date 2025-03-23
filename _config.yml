@@ -119,7 +119,7 @@ author:
   avatar           : /assets/images/second.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "고도/오독/저가형 커뮤러"
   location         : "집"
-  email            :
+  email            : "thecave.0001@gmail.com"
   links:
     - label: "CREPE"
       icon: "fas fa-fw fa-link"
@@ -127,13 +127,12 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/godot__hima"
+    - label: "Kakao"
+      icon: "fab fa-fw fa-comment"
+      url: "https://open.kakao.com/me/isangdog"
 
 # Site Footer
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/godot__hima"
 
 
 # Reading Files

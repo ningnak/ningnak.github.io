@@ -6,11 +6,11 @@ main:
     url: /categories/
     children:
     - title: "글"
-      url: /writings/
+      url: /categories/writings/
   - title: "타입"
     url: /tags/
     children:
     - title: "플라스틱 묘지"
-      url: /plastic/
+      url: /tags/plastic/
     - title: "도르르륵 텅"
       url: /tags/gorogoro/
