@@ -24,7 +24,7 @@ C은 이 기계를 가지고 싶었다.
 <br/>
 <h6 style="align: center;">◆</h6>
 ◆
-{ .text-center}
+{: .text-center}
 <br/>
 <br/>
 
