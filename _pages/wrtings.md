@@ -1,6 +1,6 @@
 ---
-title: "Writings"
+title: "글"
 layout: category
 permalink: /categories/writings/
-taxonomy: writings
+taxonomy: 글
 ---
