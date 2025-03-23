@@ -6,14 +6,14 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16px !default;
+$doc-font-size: 12px !default;
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
 $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
 
 /* paragraph indention */
-$paragraph-indent: false !default; // true, false (default)
-$indent-var: 1.3em !default;
+$paragraph-indent: true !default; // true, false (default)
+$indent-var: 1em !default;
 
 @font-face {
    font-family: 'SunBatang-Light';
@@ -80,7 +80,7 @@ $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
 
-$primary-color: #6f777d !default;
+$primary-color: #ffe927 !default;
 $success-color: #3fa63f !default;
 $warning-color: #d67f05 !default;
 $danger-color: #ee5f5b !default;
@@ -129,8 +129,8 @@ $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
 /* notices */
-$notice-background-mix: 80% !default;
-$code-notice-background-mix: 90% !default;
+$notice-background-mix: 20% !default;
+$code-notice-background-mix: 10% !default;
 
 /* syntax highlighting (base16) */
 $base00: #263238 !default;
