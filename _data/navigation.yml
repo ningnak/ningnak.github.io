@@ -1,16 +1,18 @@
 # main links
 main:
-  - title: "전체"
+  - title: '전체'
     url: /posts/
-  - title: "카테고리"
+  - title: '카테고리'
     url: /categories/
     children:
-    - title: "글"
-      url: /categories/writings/
-  - title: "타입"
+      - title: '글'
+        url: /categories/writings/
+      - title: '시나리오'
+        url: /categories/scenario/
+  - title: '타입'
     url: /tags/
     children:
-    - title: "플라스틱 묘지"
-      url: /tags/plastic/
-    - title: "도르르륵 텅"
-      url: /tags/gorogoro/
+      - title: '플라스틱 묘지'
+        url: /tags/plastic/
+      - title: '도르르륵 텅'
+        url: /tags/gorogoro/
